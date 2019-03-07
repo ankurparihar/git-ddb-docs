@@ -7,7 +7,6 @@ wants to provide a personalized experience to it's users. In this case we think 
 <!--  -->
 - Save user preference on free database store such as github or<br>
 - Use cloud services like azure, aws etc.
-<br>
 <!--  -->
 For the former there are limits to the data which can be stored so not good for website with large number of users and for the latter it's costly to pay for cloud for static a website.
 
