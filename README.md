@@ -14,7 +14,7 @@ For the former there are limits to the data which can be stored so not good for 
 Git ddb is an database solution primarily for static websites.
 The idea behind is to use users database quota for saving their personalized data instead of placing it in one place (repository limits) or cloud database (cost). The data per user is saved in their private repository so it eliminates all the above problems.
 <!--  -->
-It works the following way:
+### Working
 1. Authorize user with github using [OAuth](https://developer.github.com/apps/building-oauth-apps/) => catch `access_token` to write data to their repository
 2. Create a private repository (if not already exists) named `git-ddb`
 3. Create a file (if not already exist) distinguishing your site from all other sites using same scheme. example: I save my user's settings in file named _git-ddb-ankurparihar.json_
