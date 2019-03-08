@@ -1,3 +1,5 @@
+![git-ddb image](./assets/git-ddb.png)
+
 # git-ddb-docs
 GitHub Distributed Database working and implementation notes
 
@@ -40,7 +42,7 @@ The idea behind is to use users database quota for saving their personalized dat
 ### Cautions
 - Use unique file names and structure. Use [sitelist](./SiteList.md).
 - Always keep repository private
-- Do not store sensitive informations without encoding
+- Save sensitive informations with encryption
 - Keep your oauth app's secret keys private
 - Respect user privacy
 - Take care of [cookie policies](https://www.cookielaw.org/the-cookie-law/) if using any. [workaround](https://cookieconsent.insites.com/)
