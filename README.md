@@ -35,7 +35,7 @@ The idea behind is to use users database quota for saving their personalized dat
 - Request limits: Git api has rate limit of around [5000 requests per hour](https://developer.github.com/v3/#rate-limiting). But it's not actually a practical problem as no site is expected to change settings every second and must not do it
 - File size limit: [100 MB](https://help.github.com/en/articles/what-is-my-disk-quota) Size limit. [1 MB](https://developer.github.com/v3/repos/contents/#get-contents) Transfer limit. Here optimize use of resources required
 - Server requirement: You need one server to process git oauth request and to hide and store git oauth app's secret tokens
-- Not a fair use of github actually. Smells like torrent ;)
+- Not a fair use of github actually ;)
 
 ### Cautions
 - Use unique file names and structure. Use [sitelist](./SiteList.md).
